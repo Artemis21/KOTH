@@ -1,3 +1,6 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/7c6b2baeccaf298c7cd3/maintainability)](https://codeclimate.com/github/Artemis21/KOTH/maintainability)
+
+---
 # KOTH
 Python utilities to help with inter-language "King of the Hill" style coding challenges, where participants create "bots" (scripts) to compete in some challenge.
 
