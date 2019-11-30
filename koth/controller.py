@@ -9,7 +9,7 @@ class Player:
 
     def turn(self, inp):
         self.proc.send('===INPUT START===\n')
-        self.proc.send(inp)
+        self.proc.send(inp + '\n')
         self.proc.send('===INPUT END===\n')
         self.proc.expect_exact('===OUTPUT START===')
         self.proc.expect_exact('===OUTPUT END===')
@@ -19,4 +19,3 @@ class Player:
         self.proc.send('###GAME END###\n')
         self.proc.expect_exact('###GAME END ACK###')
         self.proc.terminate(force=True)
-
