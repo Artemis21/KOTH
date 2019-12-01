@@ -54,7 +54,7 @@ def io2():
     print('Returns: {}, {}.'.format(ret, ret2))
     print('I\O test 2.3 complete.')
     print('I\O test 2 complete.')
-    
+
 
 if __name__ == '__main__':
     io1()

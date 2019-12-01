@@ -6,3 +6,4 @@ utilities it provides more easily.
 
 from .controller import Player
 from .clients.client import Client
+from .scraper import scrape
