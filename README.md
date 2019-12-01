@@ -7,3 +7,6 @@ Python utilities to help with inter-language "King of the Hill" style coding cha
 
 ## Script interaction
 A very simple system to interact with the bot scripts whatever language they may be in, via stdin and stdout. Still in development, but please do contribute a wrapper in your favourite language to `KOTH/src/clients` called `client.{ext}` where `{ext}` is your language's conventional source code extension, eg. `py` or `js`. More info in the wiki.
+
+## SE Scraping
+A basic uitlity to scrape and save bots from a stack exchange answer. Again, more on the wiki.
