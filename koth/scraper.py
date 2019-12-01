@@ -40,5 +40,7 @@ def scrape(question, folder='bots'):
         file = os.path.join(folder, name)
         with open(file, 'w') as f:
             f.write(script)
+        # Make file executable.
+        os.chmod(file, 0o775)
         ret.append(file)
     return ret
