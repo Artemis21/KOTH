@@ -62,7 +62,8 @@ class Player:
         t = self.expect('===OUTPUT END===')
         if not t:
             return None
-        return self.proc.before.decode('utf-8').strip()
+        # \n becomes \r\n.
+        return self.proc.before.decode('utf-8').replace('\r\n', '\n').strip()
 
     def end(self):
         '''
